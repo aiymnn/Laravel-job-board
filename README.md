@@ -56,6 +56,11 @@ A simple and functional Job Board application built with Laravel. It allows job 
 
 ---
 
+> ⚠️ This project is not deployed. To test it locally, clone the repository and follow the installation steps. You will also need to set up a local database (e.g. MySQL or SQLite) and update the `.env` file accordingly.
+
+> 🛠 This project uses Laravel's default local setup. If you're using DBeaver, make sure your database connection matches the `.env` DB settings.
+
+
 ## 📦 Installation
 
 ```bash
@@ -78,3 +83,4 @@ php artisan migrate
 
 # Start the server
 php artisan serve
+
